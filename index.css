@@ -1,0 +1,16 @@
+body{font-family:sans-serif;
+         font-style: italic;
+         text-transform: capitalize;} 
+div{border: 20px green;
+    background-color: rgb(12, 255, 46);
+    width: 800px;
+    height: 800px;}
+div div{max-width: 300px;
+       height: 300px;
+       border: 15px yellow;
+       background-color: powderblue;
+       position: relative;
+       top: 400px;
+       left:275px;
+       background-image:url('https://pp.userapi.com/c846017/v846017821/1d9363/gwVFAO2fXOM.jpg');
+       overflow: scroll;}
