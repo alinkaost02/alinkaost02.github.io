@@ -1,0 +1,46 @@
+   *{font-family: "Forte";}
+   
+  em{font-style: italic;}
+
+body{background-color:#94d3f7;}
+     
+     //Изменяет выделяемый текст//
+
+::selection{background-color:black;}
+
+  h1{text-align: center;
+     color: #E6E6FA;
+     text-height:60px;}
+     
+     //Попробуй навести курсор на заголовок, а потом нажать на него//
+  h1:hover{color:black;}
+  h1:active{color:powderblue;}
+     
+.menu li a {list-style-type: none;
+	        margin: 3;
+	        padding-left: 20px;
+	        display: inline-block;
+            background:linear-gradient (to top left, #00f8fc, #0000fc );}
+            
+.menu li {display: inline-block;
+	      margin-left: 20px;}
+	      
+    #left{background:#94d3f7;
+		  width: 500px;
+		  float: left;}
+		  
+   #right{background:#94d3f7;
+		  height: 100px;
+		  width: 500;
+		  float: right;}
+  #center{margin: 0 600px 0 600px;}
+  
+      img{max-width: 400px;
+		  max-height: 400px;
+		  padding: 10px;
+		  background: linear-gradient (to top left, #fc00d6, #0000fc);
+		  bottom: 100px;}
+		  
+       h2{background: linear-gradient (to top, #0000fc, #fc00d6);
+		  bottom: 50px;
+		  width: 10px;} 
